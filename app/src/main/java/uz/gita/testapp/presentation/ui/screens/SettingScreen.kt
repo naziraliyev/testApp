@@ -88,6 +88,7 @@ open class SettingScreen : Fragment(R.layout.screen_setting) {
         }
         findNavController().popBackStack()
     }
+
     private val setLangObserver = Observer<String> {
         Timber.d("setLangObserver$it")
         if (pref.getLang() == it) {

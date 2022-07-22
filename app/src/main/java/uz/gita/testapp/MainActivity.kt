@@ -19,13 +19,6 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     private val pref by lazy { MySharedPref(this) }
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        when(pref.getLang()){
-            "uz"->setLanguage(this,"uz")
-            "ru"->setLanguage(this,"ru")
-            else->setLanguage(this,"en")
-        }
-
         if (pref.getMode()){
 
             Timber.d("getMode   ${pref.getMode()}")
@@ -34,6 +27,15 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             Timber.d("getMode   ${pref.getMode()}")
             AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_NO)
         }
+        super.onCreate(savedInstanceState)
+
+        when(pref.getLang()){
+            "uz"->setLanguage(this,"uz")
+            "ru"->setLanguage(this,"ru")
+            else->setLanguage(this,"en")
+        }
+
+
     }
 
     private fun setLanguage(context: Context, language: String) {

@@ -43,9 +43,9 @@ class DetailScreen : Fragment(R.layout.screen_details) {
         binding.buttonBack.setOnClickListener {
             viewModel.onClickBack()
         }
-        if (viewModel.progressLiveData.value==true){
-            progress.visibility= View.VISIBLE
-        }else{
+        if (viewModel.progressLiveData.value == true) {
+            progress.visibility = View.VISIBLE
+        } else {
             progress.visibility = View.GONE
         }
     }
