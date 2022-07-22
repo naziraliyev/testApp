@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picture_details">Rasmlar Ma\'lumoti</string>
+    <string name="pictures">Rasmlar</string>
+    <string name="setting">Sozlama</string>
+    <string name="darkmode"> Tungi Rejim</string>
+    <string name="change_theme">Temani o\'zgartirish</string>
+    <string name="change_language">Til o\'zgartirish</string>
+    <string name="english">Inglizcha</string>
+    <string name="russian">Ruscha</string>
+    <string name="uzbek">Uzbekcha</string>
+    <string name="language">Tilni tanlang</string>
+</resources>

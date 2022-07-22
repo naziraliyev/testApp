@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picture_details">Детали изображения</string>
+    <string name="pictures">Картина</string>
+    <string name="setting">Параметр</string>
+    <string name="darkmode">Темный режим</string>
+    <string name="change_theme">Поменять тему</string>
+    <string name="change_language">Изменить язык</string>
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+    <string name="uzbek">Узбекча</string>
+    <string name="language">TВыберите язык</string>
+</resources>

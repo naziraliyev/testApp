@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="picture_details">Picture details</string>
+    <string name="pictures">Pictures</string>
+    <string name="setting">Setting</string>
+    <string name="darkmode">DarkMode</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="change_language">Change Language</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="uzbek">Uzbekcha</string>
+    <string name="language">Select Language</string>
+</resources>
