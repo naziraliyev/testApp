@@ -46,7 +46,7 @@ open class SettingScreen : Fragment(R.layout.screen_setting) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) = with(binding) {
         super.onViewCreated(view, savedInstanceState)
 
-        switchMode.isChecked = pref.
+        switchMode.isChecked = pref.getMode()
         buttonBack.setOnClickListener {
             viewModel.onClickBack()
         }
